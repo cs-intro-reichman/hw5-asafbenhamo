@@ -76,7 +76,10 @@ public class Wordle {
         boolean T = false;
         for( int i=0; i < resultRow.length ; i++ ){
         if(resultRow[i] == 'G') T = true;
-        else T = false;
+        else {
+            T = false;
+            break;
+        }
         }
         return T;
 		// ...
