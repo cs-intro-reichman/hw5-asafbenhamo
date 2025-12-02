@@ -47,7 +47,7 @@ public class Wordle {
 	// guesses[2][3] // 'L'
 	// guesses[2][4] // 'O'
     public static void storeGuess(String guess, char[][] guesses, int row) {
-        for (int i=0; i<guess.length();i++){
+        for (int i=0; i<guesses[row].length;i++){
             guesses[row][i] = guess.charAt(i);
         }
 		// ...
