@@ -144,8 +144,8 @@ public class Wordle {
 
         if (!won) {
             // ... follow
-        System.out.println("Sorry, you did not guess the world.\r\n" + //
-        "The secret world was: " + secret );
+        System.out.println("Sorry, you did not guess the word.\r\n" + //
+        "The secret word was: " + secret );
         }
 
         inp.close();
